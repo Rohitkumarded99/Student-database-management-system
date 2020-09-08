@@ -1,0 +1,25 @@
+      Student management system using python
+
+Database creation:-
+step 1:-Download xampp run the server Apache and mysql
+Step 2:-Then paste this link in browser:-http://localhost/phpmyadmin/
+------------------------or------------
+open localhost in browser and then go to phpmyadmin
+Step 3:-Then create new data base of name "stm" under new section 
+Step 4:-Then open stm and go to import section and upload students.sql and click go in down
+after that all the rows will be updated
+-----------------------or-------------
+create a new table of name students of 7 rows
+name of the row will be as follows in sequence
+1.Roll_No (primary) type = int
+2.name type = varchar
+3.email type = varchar
+4.gender type = varchar
+5.contact type = varchar
+6.dob type = varchar
+7.address type = varchar
+
+
+     modules to be install
+1.tkinter
+2.pymysql
